@@ -1,16 +1,15 @@
-# neppie-code-dark README
+# Seaside Sunrise for VSCode
 
-## Working with Markdown
+**_Personal C# Dark theme for Visual Studio Code, featuring calming shades of purple, blue and orange_**
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Dark theme with gentle shades of purple, blue and orange, with an occasional red, aiming to favor readability and reduce strain due to overly vibrant colors.
 
-## For more information
+Inspired by, and based on, [mojo](https://github.com/albert-perlman/mojo-vscode-theme), [eppz!](https://github.com/Geri-Borbas/VSCode.Extension.eppz_Code), [One Dark Pro](https://github.com/Binaryify/OneDark-Pro) and [The Community Material Theme](https://github.com/material-theme/vsc-community-material-theme)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Currently supports `C#`, `JSON`, `XML` and `Markdown`
 
-**Enjoy!**
+##
+
+_Previews and icon coming soonTM_

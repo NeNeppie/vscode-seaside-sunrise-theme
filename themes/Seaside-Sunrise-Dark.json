@@ -98,9 +98,9 @@
     "editorGutter.addedBackground": "#9BC53DBB",
     "editorGutter.deletedBackground": "#FC644DBB",
 
-    "diffEditor.insertedTextBackground": "#376C40",
+    "diffEditor.insertedTextBackground": "#376C40AA",
     "diffEditor.insertedLineBackground": "#283E31",
-    "diffEditor.removedTextBackground": "#682731",
+    "diffEditor.removedTextBackground": "#682731AA",
     "diffEditor.removedLineBackground": "#39222A",
 
     "editorWidget.background": "#21242b",
@@ -145,22 +145,6 @@
 
     "terminal.background": "#21242b",
     "terminal.tab.activeBorder": "#9f84ff",
-    //"terminal.ansiBlack": "#1D2021",
-    //"terminal.ansiBrightBlack": "#665C54",
-    //"terminal.ansiBrightBlue": "#0D6678",
-    //"terminal.ansiBrightCyan": "#8BA59B",
-    //"terminal.ansiBrightGreen": "#237e02",
-    //"terminal.ansiBrightMagenta": "#8F4673",
-    //"terminal.ansiBrightRed": "#FB543F",
-    //"terminal.ansiBrightWhite": "#FDF4C1",
-    //"terminal.ansiBrightYellow": "#FAC03B",
-    //"terminal.ansiBlue": "#00a1f9",
-    //"terminal.ansiCyan": "#8BA59B",
-    //"terminal.ansiGreen": "#95C085",
-    //"terminal.ansiMagenta": "#8F4673",
-    //"terminal.ansiRed": "#FB543F",
-    //"terminal.ansiWhite": "#A89984",
-    //"terminal.ansiYellow": "#FAC03B",
 
     "titleBar.activeBackground": "#1d2026",
     "titleBar.inactiveBackground": "#21242b",
@@ -180,7 +164,6 @@
       "settings": { "foreground": "#db605c" }
     },
 
-    // Functions
     {
       "name": "Functions",
       "scope": [
@@ -203,7 +186,6 @@
       "settings": { "foreground": "#a491cb" }
     },
 
-    // Text
     {
       "name": "Source",
       "scope": ["source"],
@@ -220,20 +202,19 @@
         "punctuation.parenthesis",
         "punctuation.definition.typeparameters"
       ],
-      "settings": { "foreground": "#9B9BA1" } // #B5B5BA -14%
+      "settings": { "foreground": "#9B9BA1" }
     },
     {
       "name": "Square brackets & Curly braces",
       "scope": ["punctuation.squarebracket", "punctuation.curlybrace"],
-      "settings": { "foreground": "#818188" } // #B5B5BA -28%
+      "settings": { "foreground": "#818188" }
     },
     {
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
-      "settings": { "foreground": "#67676E", "fontStyle": "italic" } // #B5B5BA -42%
+      "settings": { "foreground": "#67676E", "fontStyle": "italic" }
     },
 
-    // Types
     {
       "name": "Type declarations and references",
       "scope": [
@@ -254,7 +235,6 @@
       "settings": { "foreground": "#744A9E" }
     },
 
-    // Keywords
     {
       "name": "Keywords",
       "scope": [
@@ -270,7 +250,6 @@
       "settings": { "foreground": "#b882ee" }
     },
 
-    // Namespaces & Imports
     {
       "name": "Namespace Keyword",
       "scope": ["keyword.other.namespace", "keyword.other.using"],
@@ -282,7 +261,6 @@
       "settings": { "foreground": "#82bcff" }
     },
 
-    // Literals
     {
       "name": "Numberics",
       "scope": ["constant.numeric"],
@@ -313,7 +291,6 @@
       "settings": { "foreground": "#D19A66" }
     },
 
-    // Variables
     {
       "name": "Variables",
       "scope": [
@@ -333,12 +310,12 @@
         "support.variable",
         "entity.name.variable.local"
       ],
-      "settings": { "foreground": "#D6D3DE" } // Source
+      "settings": { "foreground": "#D6D3DE" }
     },
     {
       "name": "Parameters",
       "scope": ["entity.name.variable.parameter"],
-      "settings": { "foreground": "#D6D3DE", "fontStyle": "italic" } // Source
+      "settings": { "foreground": "#D6D3DE", "fontStyle": "italic" }
     },
 
     {
@@ -353,7 +330,6 @@
       "settings": { "foreground": "#82bcff" }
     },
 
-    // Markdown
     {
       "name": "Plain Markdown Text",
       "scope": [
@@ -457,7 +433,6 @@
       "settings": { "foreground": "#588a6f" }
     },
 
-    // XML
     {
       "scope": ["entity.name.tag"],
       "settings": { "foreground": "#6785E6" }
@@ -468,7 +443,7 @@
     },
     {
       "scope": ["text.xml"],
-      "settings": { "foreground": "#D6D3DE" } // Source
+      "settings": { "foreground": "#D6D3DE" }
     },
     {
       "scope": ["punctuation.definition.tag.xml"],
