@@ -1,0 +1,21 @@
+{
+  "name": "neppie-code-dark",
+  "displayName": "Neppie Code Dark",
+  "description": "Personal Dark theme for C#, inspired by and based on Mojo, Eppz! and Material Themes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neppie Code Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Neppie Code Dark-color-theme.json"
+      }
+    ]
+  }
+}
