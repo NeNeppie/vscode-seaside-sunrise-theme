@@ -98,10 +98,10 @@
     "editorGutter.addedBackground": "#9BC53DBB",
     "editorGutter.deletedBackground": "#FC644DBB",
 
-    "diffEditor.insertedTextBackground": "#376C40AA",
-    "diffEditor.insertedLineBackground": "#283E31",
-    "diffEditor.removedTextBackground": "#682731AA",
-    "diffEditor.removedLineBackground": "#39222A",
+    "diffEditor.insertedTextBackground": "#376C4080",
+    "diffEditor.insertedLineBackground": "#376C4055",
+    "diffEditor.removedTextBackground": "#68273180",
+    "diffEditor.removedLineBackground": "#68273155",
 
     "editorWidget.background": "#21242b",
     "editorSuggestWidget.background": "#21242b",
