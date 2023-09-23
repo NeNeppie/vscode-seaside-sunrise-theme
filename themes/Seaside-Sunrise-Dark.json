@@ -240,7 +240,8 @@
       "scope": [
         "keyword.control",
         "keyword.operator.conditional",
-        "keyword.query"
+        "keyword.query",
+		"keyword.operator.null-coalescing"
       ],
       "settings": { "foreground": "#b882ee", "fontStyle": "italic" }
     },
